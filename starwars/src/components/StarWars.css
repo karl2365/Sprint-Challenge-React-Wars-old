@@ -1,0 +1,7 @@
+.character {
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 1.3rem;
+    
+
+}
