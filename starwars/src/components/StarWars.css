@@ -11,5 +11,10 @@
 .char-property {
     text-align: left;
     width: 32%;
-    color: rgb(103, 22, 179)
+    color: rgb(103, 22, 179);
+
+}
+
+.char-property.first {
+    margin-left: 10px;
 }
