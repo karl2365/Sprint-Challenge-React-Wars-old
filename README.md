@@ -26,23 +26,35 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a component library, it allows for dynamic 'reactive' updating of the DOM in an efficient way.
+
 - [ ] What does it mean to _think_ in react?
+
+Thinking in React to me means to think in components, and to pass data around 
+in props.  For me it is easiest to think of props as parameters, we just use
+attribute key: value pairs instead of variables.
 
 - [ ] Describe state.
 
+State is mutable data stored for use within the React app.  It can only be
+altered by using the setState function
+
 - [ ] Describe props.
+
+Props are how we pass data around to components in our app.  They are sent via
+key: value pairs and received as an object of key value pairs that can be accessed in the same way as parameters.
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!)
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
-- [ ] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [ x] Create a forked copy of this project.
+- [ x] Add PM as collaborator on Github.
+- [ x] Clone your OWN version of Repo (Not Lambda's by mistake!)
+- [ x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [ x] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
+- [ x] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
+- [ x] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
 Follow these steps for completing your project.
 - [ ] Implement the project on this Branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
