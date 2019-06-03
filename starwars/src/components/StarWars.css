@@ -1,0 +1,20 @@
+.character {
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 1.3rem;
+    justify-content: space-between;
+    background: #ced6d8;
+    border-radius: 7px;
+    margin: 5% 1%;
+
+}
+.char-property {
+    text-align: left;
+    width: 32%;
+    color: rgb(103, 22, 179);
+
+}
+
+.char-property.first {
+    margin-left: 10px;
+}
